@@ -1,46 +1,47 @@
 <template>
   <Layout>
     <section class="bg-brand-violet">
-      <div class="container mx-auto px-4 flex-row py-10 lg:py-20">
+      <div class="container mx-auto px-4 flex-row py-6 lg:py-20">
+       <g-image
+          src="~/imgs/qg_logo_long.svg"
+          width="800"
+          class="md:max-w-600px mx-auto"
+        />
         <div
-          class="flex flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10 lg:space-x-20 items-stretch"
+          class="flex flex-col md:flex-row md:space-y-0 md:space-x-10 lg:space-x-20 items-stretch"
         >
-          <div class="flex items-center">
-            <g-link to="https://lab.quantumflytrap.com/lab/mach-zehnder">
-            </g-link>
-          </div>
           <div class="flex-1 prose text-white md:p-4 max-w-full self-center">
             <div>
-                 <g-image
-               src="~/imgs/quantum_flytrap_logo_wave_white.png"
-               width="200"
-               class="md:max-w-600px mx-auto"
-              />
-              <h1 class="uppercase text-white">Quantum user interfaces</h1>
+              <h1 class="uppercase text-white">Play for fun!</h1>
+              <h2 class="uppercase text-white">Learn quantum mechanics as a side effect</h2>
               <p>
-                Quantum computing gets real!<br />
-                At Quantum Flytrap we develop intuitive user interfaces for
-                quantum computing to make it an accessible &amp;
-                business-available technology. We aim to build the standard for
-                interaction with quantum systems.
+                A puzzle game with photons, superposition, entanglement and quantum measurement, right in your browser.<br/>
+                With true quantum mechanics underneath!
               </p>
             </div>
 
             <div
-              class="flex flex-row space-x-4 md:flex-col md:space-x-0 md:space-y-4 xl:flex-row xl:space-x-4 xl:space-y-0 max-w-full"
+              class="flex flex-row space-x-4  md:flex-col md:space-x-0 md:space-y-4 xl:flex-row xl:space-x-4 xl:space-y-0 max-w-full"
             >
-              <a href="https://lab.quantumflytrap.com/">
+              <a href="https://lab.quantumflytrap.com/game">
                 <button
                   class="bg-intense-violet text-white flex-auto px-5 py-0.5"
                 >
-                  VIRTUAL LAB
+                  play QUANTUM GAME!
                 </button>
               </a>
               <a href="https://lab.quantumflytrap.com/lab/mach-zehnder">
                 <button
                   class="border border-white text-white flex-auto px-5 py-0.5"
                 >
-                  Go to this experiment
+                  visit VIRTUAL LAB
+                </button>
+              </a>
+              <a href="https://quantumflytrap.com">
+                <button
+                  class="border border-white text-white flex-auto px-5 py-0.5"
+                >
+                  about QUANTUM FLYTRAP
                 </button>
               </a>
             </div>
