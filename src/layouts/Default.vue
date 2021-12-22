@@ -7,28 +7,6 @@
 </template>
 
 <script>
-export default {
-  data: () => {
-    return {
-      monetizationState: "",
-      menuOpen: false,
-    };
-  },
-  mounted() {
-    if (!this.$monetization.isEnabled()) {
-      this.$monetization.enable();
-    }
-    this.monetizationState = this.$monetization.getState();
-    this.$monetization.onStateChange((event) => {
-      this.monetizationState = this.$monetization.getEventStateString(event);
-    });
-  },
-  methods: {
-    toggleMenu() {
-      this.menuOpen = !this.menuOpen;
-    },
-  },
-};
 </script>
 
 <static-query>
