@@ -15,13 +15,6 @@ module.exports = {
     {
       use: "@gridsome/source-filesystem",
       options: {
-        path: "content/posts/**/*.md",
-        typeName: "BlogPost",
-      },
-    },
-    {
-      use: "@gridsome/source-filesystem",
-      options: {
         path: "content/landing/**/*.md",
         typeName: "LandingSection",
       },
@@ -34,29 +27,11 @@ module.exports = {
       },
     },
     {
-      use: "@gridsome/source-filesystem",
-      options: {
-        path: "content/pages/**/*.md",
-        typeName: "PageA",
-      },
-    },
-    {
-      use: "gridsome-plugin-monetization",
-      options: {
-        paymentPointer: "$ilp.uphold.com/Gnn7yq7XUiwj", // your payment pointer
-        global: true, // add monetization to every page; default: true
-      },
-    },
-    {
       use: 'gridsome-plugin-plausible-analytics',
       options: {
-        dataDomain: 'quantumflytrap.com',
+        dataDomain: 'quantumgame.io',
         outboundLinkTracking: false
       }
     }
   ],
-  templates: {
-    BlogPost: "/blog/:slug",
-    PageA: "/:slug",
-  },
 };

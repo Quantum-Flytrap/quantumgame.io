@@ -11,6 +11,11 @@
           </div>
           <div class="flex-1 prose text-white md:p-4 max-w-full self-center">
             <div>
+                 <g-image
+               src="~/imgs/quantum_flytrap_logo_wave_white.png"
+               width="200"
+               class="md:max-w-600px mx-auto"
+              />
               <h1 class="uppercase text-white">Quantum user interfaces</h1>
               <p>
                 Quantum computing gets real!<br />
