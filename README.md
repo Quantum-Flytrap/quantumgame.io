@@ -1,4 +1,4 @@
-# Quantum Flytrap landing page
+# Quantum Game landing page
 
 It uses [Gridsome](https://gridsome.org/).
 
@@ -9,8 +9,8 @@ Install Gridsome CLI globally: `yarn global add @gridsome/cli` (or `npm install 
 Then to clone and install dependencies:
 
 ```{bash}
-git clone git@github.com:Quantum-Game/quantumflytrap.com.git
-cd quantumflytrap.com
+git clone git@github.com:Quantum-Flytrap/quantumgame.io.git
+cd quantumgame.io
 yarn
 ```
 
