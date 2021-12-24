@@ -1,52 +1,68 @@
 <template>
   <Layout>
-    <section class="bg-brand-violet">
-      <div class="container mx-auto px-4 flex-row py-6 lg:py-20">
-       <g-image
-          src="~/imgs/qg_logo_long.svg"
-          width="800"
-          class="md:max-w-600px mx-auto"
+    <section class="bg-brand-gradient">
+      <div
+        class="container hero-section flex flex-col mx-auto px-4 flex-row py-6 lg:py-20"
+      >
+        <g-image
+          src="~/imgs/qg_small_logo_text.svg"
+          immediate="true"
+          class="mx-auto"
         />
+        <div class="flex-1"></div>
         <div
-          class="flex flex-col md:flex-row md:space-y-0 md:space-x-10 lg:space-x-20 items-stretch"
+          class="flex flex-1 flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10"
         >
-          <div class="flex-1 prose text-white md:p-4 max-w-full self-center">
-            <div>
-              <h1 class="uppercase text-white">Play for fun!</h1>
-              <h2 class="uppercase text-white">Learn quantum mechanics as a side effect</h2>
-              <p>
-                A puzzle game with photons, superposition, entanglement and quantum measurement, right in your browser.<br/>
-                With true quantum mechanics underneath!
-              </p>
-            </div>
+          <div
+            class="flex flex-col md:flex-row md:space-y-0 md:space-x-10 lg:space-x-20 items-stretch"
+          >
+            <div class="flex-1 prose text-white md:p-4 hero-prose">
+              <div>
+                <h1 class="uppercase text-white">Play for fun</h1>
+                <h2 class="uppercase text-white font-normal">
+                  Learn quantum mechanics as a side effect
+                </h2>
+                <p>
+                  A puzzle game with photons, superposition, entanglement and
+                  quantum measurement, right in your browser.<br />
+                  Powered bu
+                  <a href="https://lab.quantumflytrap.com/lab">Virtual Lab</a>
+                  by
+                  <a href="https://quantumflytrap.com/">Quantum Flytrap</a>
+                </p>
+              </div>
 
-            <div
-              class="flex flex-row space-x-4  md:flex-col md:space-x-0 md:space-y-4 xl:flex-row xl:space-x-4 xl:space-y-0 max-w-full"
-            >
-              <a href="https://lab.quantumflytrap.com/game">
-                <button
-                  class="bg-intense-violet text-white flex-auto px-5 py-0.5"
+              <div class="flex flex-col space-y-4 items-start hero-buttons">
+                <a
+                  href="https://lab.quantumflytrap.com/game"
+                  class="bg-intense-violet text-white px-5 py-1"
+                  >play QUANTUM GAME!</a
                 >
-                  play QUANTUM GAME!
-                </button>
-              </a>
-              <a href="https://lab.quantumflytrap.com/lab/mach-zehnder">
-                <button
-                  class="border border-white text-white flex-auto px-5 py-0.5"
+                <a
+                  href="https://lab.quantumflytrap.com/lab/mach-zehnder"
+                  class="border border-white text-white px-5 py-1"
+                  >visit VIRTUAL LAB</a
                 >
-                  visit VIRTUAL LAB
-                </button>
-              </a>
-              <a href="https://quantumflytrap.com">
-                <button
-                  class="border border-white text-white flex-auto px-5 py-0.5"
+                <a
+                  href="https://quantumflytrap.com"
+                  class="border border-white text-white px-5 py-1"
+                  >about QUANTUM FLYTRAP</a
                 >
-                  about QUANTUM FLYTRAP
-                </button>
-              </a>
+              </div>
             </div>
           </div>
+          <div class="flex flex-1">
+            <g-image
+              src="~/imgs/pile_xmas.svg"
+              immediate="true"
+              class="hero-image mx-auto"
+            />
+          </div>
         </div>
+        <p class="md:p-4 support-footnote">
+          Supported by <a>Centre for Quantum Technologies</a>, National
+          University of Singapore and the <a>Unitary Fund</a>
+        </p>
       </div>
     </section>
 
@@ -130,5 +146,43 @@ query {
 }
 .prose .text-white {
   color: white;
+}
+.bg-brand-gradient {
+  background: linear-gradient(to bottom, #5d00d3, #5d02d3 14%, #f05);
+}
+
+.hero-image {
+  width: auto;
+  min-width: 200px;
+}
+
+.hero-buttons a {
+  text-decoration: none;
+}
+
+.hero-prose {
+  font-weight: 200;
+}
+
+.hero-prose h2 {
+  font-weight: 200;
+}
+
+.hero-prose a {
+  font-weight: 200;
+  color: white;
+}
+
+.hero-section {
+  min-height: calc(min(100vh, 800px));
+}
+.support-footnote {
+  color: white;
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.support-footnote a {
+  text-decoration: underline;
 }
 </style>
