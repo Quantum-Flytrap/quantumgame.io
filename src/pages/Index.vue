@@ -68,27 +68,6 @@
         </p>
       </div>
     </section>
-
-    <div class="landing-sections">
-      <section class="bg-pink-beige">
-        <div class="container mx-auto">
-          <Testimonials
-            class="testimonials"
-            :testimonials="$page.allTestimonial.edges.map((e) => e.node)"
-          />
-        </div>
-      </section>
-
-      <section
-        v-for="(edge, index) in $page.allLandingSection.edges"
-        :key="index"
-        :class="sectionClass(index)"
-      >
-        <div class="container mx-auto py-6">
-          <div class="section prose max-w-4xl" v-html="edge.node.content" />
-        </div>
-      </section>
-    </div>
   </Layout>
 </template>
 
