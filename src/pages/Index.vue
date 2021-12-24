@@ -24,11 +24,13 @@
                 </h2>
                 <p>
                   A puzzle game with photons, superposition, entanglement and
-                  quantum measurement, right in your browser.<br />
-                  Powered bu
+                  quantum measurement, right in your browser!
+                </p>
+                <p>
+                  Powered by
                   <a href="https://lab.quantumflytrap.com/lab">Virtual Lab</a>
                   by
-                  <a href="https://quantumflytrap.com/">Quantum Flytrap</a>
+                  <a href="https://quantumflytrap.com/">Quantum Flytrap</a>.
                 </p>
               </div>
 
@@ -60,8 +62,9 @@
           </div>
         </div>
         <p class="md:p-4 support-footnote">
-          Supported by <a>Centre for Quantum Technologies</a>, National
-          University of Singapore and the <a>Unitary Fund</a>
+          Supported by <a href="https://www.quantumlah.org/">CQT | Centre for Quantum Technologies, National
+          University of Singapore</a>
+          and the <a href="https://unitary.fund/">Unitary Fund</a>.
         </p>
       </div>
     </section>
