@@ -41,14 +41,14 @@
                   >play QUANTUM GAME!</a
                 >
                 <a
-                  href="https://lab.quantumflytrap.com/lab/mach-zehnder"
+                  href="https://twitter.com/QuantumFlytrap"
                   class="border border-white text-white px-5 py-1"
-                  >visit VIRTUAL LAB</a
+                  >follow us on TWITTER</a
                 >
                 <a
-                  href="https://quantumflytrap.com"
+                  href="https://discord.gg/vV8yGMEeSy"
                   class="border border-white text-white px-5 py-1"
-                  >about QUANTUM FLYTRAP</a
+                  >join our DISCORD</a
                 >
               </div>
             </div>
@@ -61,7 +61,7 @@
             />
           </div>
         </div>
-        <p class="md:p-4 support-footnote">
+        <p class="md:p-4 support-footnote"> 
           Supported by <a href="https://www.quantumlah.org/">CQT | Centre for Quantum Technologies, National
           University of Singapore</a>
           and the <a href="https://unitary.fund/">Unitary Fund</a>.
