@@ -30,7 +30,8 @@
                   Powered by
                   <a href="https://lab.quantumflytrap.com/lab">Virtual Lab</a>
                   by
-                  <a href="https://quantumflytrap.com/">Quantum Flytrap</a>.
+                  <a href="https://quantumflytrap.com/">Quantum Flytrap</a>.<br/>
+                  Infinite, generative music by <a href="https://www.paweljanicki.jp/">Pawel Janicki</a>.
                 </p>
               </div>
 
