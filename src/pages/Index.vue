@@ -157,7 +157,7 @@ query {
 }
 
 .hero-section {
-  min-height: calc(min(100vh, 800px));
+  min-height: 100vh;
 }
 .support-footnote {
   color: white;
