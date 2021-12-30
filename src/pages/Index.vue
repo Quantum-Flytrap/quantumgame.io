@@ -18,9 +18,8 @@
           >
             <div class="flex-1 prose text-white md:p-4 hero-prose">
               <div>
-                <h1 class="uppercase text-white">Play for fun</h1>
                 <h2 class="uppercase text-white font-normal">
-                  Learn quantum mechanics as a side effect
+                  Play for fun<br/>Learn quantum mechanics as a side effect
                 </h2>
                 <p>
                   A puzzle game with photons, superposition, entanglement and
