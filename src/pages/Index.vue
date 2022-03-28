@@ -68,54 +68,6 @@
   </Layout>
 </template>
 
-<script>
-import Testimonials from "~/components/Testimonials.vue";
-export default {
-  name: "Index",
-  components: {
-    Testimonials,
-  },
-  metaInfo: {
-    title: "Home",
-  },
-  methods: {
-    sectionClass(index) {
-      return index % 2 === 0 ? "bg-dark-violet text-white" : "bg-pink-beige";
-    },
-  },
-};
-</script>
-
-<page-query>
-query {
-  allLandingSection(sortBy: "order", order: ASC) {
-    edges {
-      node {
-        id
-        title
-        order
-        content
-      }
-    }
-  }
-
-  allTestimonial {
-    edges {
-      node {
-        title
-        institute
-        photo
-        link {
-          text
-          url
-        }
-        content
-      }
-    }
-  }
-}
-</page-query>
-
 <style>
 .bg-dark-violet.text-white .section.prose {
   color: #e5e7eb;

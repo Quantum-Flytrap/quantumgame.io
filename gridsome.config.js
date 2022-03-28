@@ -13,20 +13,6 @@ module.exports = {
       use: "gridsome-plugin-tailwindcss",
     },
     {
-      use: "@gridsome/source-filesystem",
-      options: {
-        path: "content/landing/**/*.md",
-        typeName: "LandingSection",
-      },
-    },
-    {
-      use: "@gridsome/source-filesystem",
-      options: {
-        path: "content/testimonials/**/*.md",
-        typeName: "Testimonial",
-      },
-    },
-    {
       use: 'gridsome-plugin-plausible-analytics',
       options: {
         dataDomain: 'quantumgame.io',
