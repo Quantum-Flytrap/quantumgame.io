@@ -1,25 +1,18 @@
 <template>
   <Layout>
     <section class="bg-brand-gradient">
-      <div
-        class="container hero-section flex flex-col mx-auto px-4 flex-row py-6 lg:py-20"
-      >
-        <g-image
-          src="~/imgs/qg_small_logo_text.svg"
-          immediate="true"
-          class="mx-auto"
-        />
+      <div class="container hero-section flex flex-col mx-auto px-4 flex-row py-6 lg:py-20">
+        <g-image src="~/imgs/qg_small_logo_text.svg" immediate="true" class="mx-auto" />
         <div class="flex-1"></div>
-        <div
-          class="flex flex-1 flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10"
-        >
+        <div class="flex flex-1 flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10">
           <div
             class="flex flex-col md:flex-row md:space-y-0 md:space-x-10 lg:space-x-20 items-stretch"
           >
             <div class="flex-1 prose text-white md:p-4 hero-prose">
               <div>
                 <h2 class="uppercase text-white font-normal">
-                  Play for fun<br/>Learn quantum mechanics as a side effect
+                  Play for fun
+                  <br />Learn quantum mechanics as a side effect
                 </h2>
                 <p>
                   A puzzle game with photons, superposition, entanglement and
@@ -29,11 +22,15 @@
                   Powered by
                   <a href="https://lab.quantumflytrap.com/lab">Virtual Lab</a>
                   by
-                  <a href="https://quantumflytrap.com/">Quantum Flytrap</a>.<br/>
-                  Infinite, generative music by <a href="https://www.paweljanicki.jp/">Pawel Janicki</a>.
+                  <a href="https://quantumflytrap.com/">Quantum Flytrap</a>.
+                  <br />Infinite, generative music by
+                  <a href="https://www.paweljanicki.jp/">Pawel Janicki</a>.
                 </p>
                 <p>
-                  More details in our recent preprint, <a href="https://arxiv.org/abs/2203.13300">"Visualizing quantum mechanics in an interactive simulation - Virtual Lab by Quantum Flytrap", arXiv:2203.13300</a>.
+                  More details in our recent preprint,
+                  <a
+                    href="https://arxiv.org/abs/2203.13300"
+                  >"Visualizing quantum mechanics in an interactive simulation - Virtual Lab by Quantum Flytrap", arXiv:2203.13300</a>.
                 </p>
               </div>
 
@@ -41,33 +38,30 @@
                 <a
                   href="https://lab.quantumflytrap.com/game"
                   class="bg-intense-violet text-white px-5 py-1"
-                  >play QUANTUM GAME!</a
-                >
+                >play QUANTUM GAME!</a>
                 <a
                   href="https://twitter.com/QuantumFlytrap"
                   class="border border-white text-white px-5 py-1"
-                  >follow us on TWITTER</a
-                >
+                >follow us on TWITTER</a>
                 <a
                   href="https://discord.gg/vV8yGMEeSy"
                   class="border border-white text-white px-5 py-1"
-                  >join our DISCORD</a
-                >
+                >join our DISCORD</a>
               </div>
             </div>
           </div>
           <div class="flex flex-1">
-            <g-image
-              src="~/imgs/pile_xmas.svg"
-              immediate="true"
-              class="hero-image mx-auto"
-            />
+            <g-image src="~/imgs/pile_xmas.svg" immediate="true" class="hero-image mx-auto" />
           </div>
         </div>
-        <p class="md:p-4 support-footnote"> 
-          Supported by <a href="https://www.quantumlah.org/">CQT | Centre for Quantum Technologies, National
-          University of Singapore</a>
-          and the <a href="https://unitary.fund/">Unitary Fund</a>.
+        <p class="md:p-4 support-footnote">
+          Supported by
+          <a href="https://www.quantumlah.org/">
+            CQT | Centre for Quantum Technologies, National
+            University of Singapore
+          </a>
+          and the
+          <a href="https://unitary.fund/">Unitary Fund</a>.
         </p>
       </div>
     </section>
