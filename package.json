@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "gridsome": "^0.7.0",
-    "gridsome-plugin-plausible-analytics": "^1.0.0"
+    "gridsome-plugin-plausible-analytics": "^1.1.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss7-compat": "^2.0.2",

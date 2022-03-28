@@ -2696,6 +2696,11 @@ core-js-compat@^3.18.0, core-js-compat@^3.19.1, core-js-compat@^3.6.5:
     browserslist "^4.19.1"
     semver "7.0.0"
 
+core-js@^3.21.0:
+  version "3.21.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.21.1.tgz#f2e0ddc1fc43da6f904706e8e955bc19d06a0d94"
+  integrity sha512-FRq5b/VMrWlrmCzwRrpDYNxyHP9BcAZC+xHJaqTgIE5091ZV1NTmyh0sGOg5XqpnHvR0svdy0sv1gWA1zmhxig==
+
 core-js@^3.6.4, core-js@^3.6.5:
   version "3.20.0"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.20.0.tgz#1c5ac07986b8d15473ab192e45a2e115a4a95b79"
@@ -4435,9 +4440,11 @@ graphql@^14.4.2:
     iterall "^1.2.2"
 
 gridsome-plugin-plausible-analytics@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gridsome-plugin-plausible-analytics/-/gridsome-plugin-plausible-analytics-1.0.0.tgz#251d21334d6ac12df8967724fc55a079ffec9395"
-  integrity sha512-KMEQzxy3jefHH8ZDPbKttsrrEt4uSebn+saHtRkZx9pXR7DJmge0uE6+ImzsBXdpNuOvMTa6XGZVrwm00VC/QQ==
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/gridsome-plugin-plausible-analytics/-/gridsome-plugin-plausible-analytics-1.1.0.tgz#34026a2a8f57a8ab2b4da59be90df0b05a6a181d"
+  integrity sha512-XJ8aW+n9KHee2hrVoZyIY5LnvpmBtOzutTqysx7h4edVh+4FN1nxwexVbCB0vQTGUKrPV7cJhpgC3/DK3G4whg==
+  dependencies:
+    core-js "^3.21.0"
 
 gridsome-plugin-tailwindcss@^4.1.1:
   version "4.1.1"
