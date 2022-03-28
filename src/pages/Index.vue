@@ -27,10 +27,10 @@
                   <a href="https://www.paweljanicki.jp/">Pawel Janicki</a>.
                 </p>
                 <p>
-                  More details in our recent preprint,
+                  More details in our recent preprint
                   <a
                     href="https://arxiv.org/abs/2203.13300"
-                  >"Visualizing quantum mechanics in an interactive simulation - Virtual Lab by Quantum Flytrap", arXiv:2203.13300</a>.
+                  >arXiv:2203.13300</a>.
                 </p>
               </div>
 
