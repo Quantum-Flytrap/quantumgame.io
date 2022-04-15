@@ -58,6 +58,14 @@
   </Layout>
 </template>
 
+<script>
+export default {
+  metaInfo: {
+    title: "Quantum Game",
+  },
+};
+</script>
+
 <style>
 .bg-dark-violet.text-white .section.prose {
   color: #e5e7eb;
