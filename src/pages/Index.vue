@@ -5,9 +5,7 @@
         <g-image src="~/imgs/qg_small_logo_text.svg" immediate="true" class="mx-auto" />
         <div class="flex-1"></div>
         <div class="flex flex-1 flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10">
-          <div
-            class="flex flex-col md:flex-row md:space-y-0 md:space-x-10 lg:space-x-20 items-stretch"
-          >
+          <div class="flex flex-col md:flex-row md:space-y-0 md:space-x-10 lg:space-x-20 items-stretch">
             <div class="flex-1 prose text-white md:p-4 hero-prose">
               <div>
                 <h2 class="uppercase text-white font-normal">
@@ -28,25 +26,17 @@
                 </p>
                 <p>
                   More details in our recent preprint
-                  <a
-                    href="https://arxiv.org/abs/2203.13300"
-                  >arXiv:2203.13300</a>.
+                  <a href="https://arxiv.org/abs/2203.13300">arXiv:2203.13300</a>.
                 </p>
               </div>
 
               <div class="flex flex-col space-y-4 items-start hero-buttons">
-                <a
-                  href="https://lab.quantumflytrap.com/game"
-                  class="bg-intense-violet text-white px-5 py-1"
-                >play QUANTUM GAME!</a>
-                <a
-                  href="https://twitter.com/QuantumFlytrap"
-                  class="border border-white text-white px-5 py-1"
-                >follow us on TWITTER</a>
-                <a
-                  href="https://discord.gg/vV8yGMEeSy"
-                  class="border border-white text-white px-5 py-1"
-                >join our DISCORD</a>
+                <a href="https://lab.quantumflytrap.com/game" class="bg-intense-violet text-white px-5 py-1">play
+                  QUANTUM GAME!</a>
+                <a href="https://twitter.com/QuantumFlytrap" class="border border-white text-white px-5 py-1">follow us
+                  on TWITTER</a>
+                <a href="https://discord.gg/vV8yGMEeSy" class="border border-white text-white px-5 py-1">join our
+                  DISCORD</a>
               </div>
             </div>
           </div>
@@ -72,12 +62,15 @@
 .bg-dark-violet.text-white .section.prose {
   color: #e5e7eb;
 }
+
 .bg-dark-violet.text-white .section.prose a {
   color: #e5e7eb;
 }
+
 .prose .text-white {
   color: white;
 }
+
 .bg-brand-gradient {
   background: linear-gradient(to bottom, #5d00d3, #5d02d3 14%, #f05);
 }
@@ -107,6 +100,7 @@
 .hero-section {
   min-height: 100vh;
 }
+
 .support-footnote {
   color: white;
   font-size: 0.8rem;
