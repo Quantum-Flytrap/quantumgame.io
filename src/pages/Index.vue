@@ -25,8 +25,9 @@
                   <a href="https://www.paweljanicki.jp/">Pawel Janicki</a>.
                 </p>
                 <p>
-                  More details in our recent preprint
-                  <a href="https://arxiv.org/abs/2203.13300">arXiv:2203.13300</a>.
+                  More details in our recent publication,
+                  <a href="https://doi.org/10.1117/1.OE.61.8.081808">Visualizing quantum mechanics in an interactive simulation - Virtual Lab by Quantum Flytrap</a>,
+                  Optical Engineering 61(8), 081808 (2022).
                 </p>
               </div>
 
