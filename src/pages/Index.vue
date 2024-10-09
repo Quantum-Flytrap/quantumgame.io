@@ -60,6 +60,20 @@
                   >join our DISCORD</a
                 >
               </div>
+
+              <div>
+                <p>
+                  An older
+                  <a href="https://old.quantumgame.io/"
+                    >Quantum Game with Photons</a
+                  >
+                  (2014-2016) is available for
+                  <a href="https://v2016.quantumgame.io/">playing</a> and as
+                  <a href="https://github.com/stared/quantum-game"
+                    >source code</a
+                  >.
+                </p>
+              </div>
             </div>
           </div>
           <div class="flex flex-1">
