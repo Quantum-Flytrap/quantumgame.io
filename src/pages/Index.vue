@@ -35,7 +35,9 @@
                   <a href="https://www.paweljanicki.jp/">Pawel Janicki</a>.
                 </p>
                 <p>
-                  More details in our recent publication,
+                  More details in our recent publication,<br />
+                  Piotr Migdał, Klementyna Jankiewicz, Paweł Grabarz, Chiara
+                  Decaroli, Philippe Cochin,
                   <a href="https://doi.org/10.1117/1.OE.61.8.081808"
                     >Visualizing quantum mechanics in an interactive simulation
                     - Virtual Lab by Quantum Flytrap</a
