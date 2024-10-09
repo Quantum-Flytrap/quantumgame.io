@@ -1,11 +1,21 @@
 <template>
   <Layout>
     <section class="bg-brand-gradient">
-      <div class="container hero-section flex flex-col mx-auto px-4 flex-row py-6 lg:py-20">
-        <g-image src="~/imgs/qg_small_logo_text.svg" immediate="true" class="mx-auto" />
+      <div
+        class="container hero-section flex flex-col mx-auto px-4 flex-row py-6 lg:py-20"
+      >
+        <g-image
+          src="~/imgs/qg_small_logo_text.svg"
+          immediate="true"
+          class="mx-auto"
+        />
         <div class="flex-1"></div>
-        <div class="flex flex-1 flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10">
-          <div class="flex flex-col md:flex-row md:space-y-0 md:space-x-10 lg:space-x-20 items-stretch">
+        <div
+          class="flex flex-1 flex-col md:flex-row space-y-10 md:space-y-0 md:space-x-10"
+        >
+          <div
+            class="flex flex-col md:flex-row md:space-y-0 md:space-x-10 lg:space-x-20 items-stretch"
+          >
             <div class="flex-1 prose text-white md:p-4 hero-prose">
               <div>
                 <h2 class="uppercase text-white font-normal">
@@ -26,30 +36,45 @@
                 </p>
                 <p>
                   More details in our recent publication,
-                  <a href="https://doi.org/10.1117/1.OE.61.8.081808">Visualizing quantum mechanics in an interactive simulation - Virtual Lab by Quantum Flytrap</a>,
-                  Optical Engineering 61(8), 081808 (2022).
+                  <a href="https://doi.org/10.1117/1.OE.61.8.081808"
+                    >Visualizing quantum mechanics in an interactive simulation
+                    - Virtual Lab by Quantum Flytrap</a
+                  >, Optical Engineering 61(8), 081808 (2022).
                 </p>
               </div>
 
               <div class="flex flex-col space-y-4 items-start hero-buttons">
-                <a href="https://lab.quantumflytrap.com/game" class="bg-intense-violet text-white px-5 py-1">play
-                  QUANTUM GAME!</a>
-                <a href="https://twitter.com/QuantumFlytrap" class="border border-white text-white px-5 py-1">follow us
-                  on TWITTER</a>
-                <a href="https://discord.gg/vV8yGMEeSy" class="border border-white text-white px-5 py-1">join our
-                  DISCORD</a>
+                <a
+                  href="https://lab.quantumflytrap.com/game"
+                  class="bg-intense-violet text-white px-5 py-1"
+                  >play QUANTUM GAME!</a
+                >
+                <a
+                  href="https://twitter.com/QuantumFlytrap"
+                  class="border border-white text-white px-5 py-1"
+                  >follow us on TWITTER</a
+                >
+                <a
+                  href="https://discord.gg/vV8yGMEeSy"
+                  class="border border-white text-white px-5 py-1"
+                  >join our DISCORD</a
+                >
               </div>
             </div>
           </div>
           <div class="flex flex-1">
-            <g-image src="~/imgs/pile_xmas.svg" immediate="true" class="hero-image mx-auto" />
+            <g-image
+              src="~/imgs/pile_xmas.svg"
+              immediate="true"
+              class="hero-image mx-auto"
+            />
           </div>
         </div>
         <p class="md:p-4 support-footnote">
           Supported by
           <a href="https://www.quantumlah.org/">
-            CQT | Centre for Quantum Technologies, National
-            University of Singapore
+            CQT | Centre for Quantum Technologies, National University of
+            Singapore
           </a>
           and the
           <a href="https://unitary.fund/">Unitary Fund</a>.
